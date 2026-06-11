@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Página Personal</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#2563eb,#1e40af);
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid white;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+nav{
+    background:white;
+    text-align:center;
+    padding:15px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    text-decoration:none;
+    color:#2563eb;
+    margin:10px;
+    padding:10px 20px;
+    border:2px solid #2563eb;
+    border-radius:25px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:#2563eb;
+    color:white;
+}
+
+section{
+    max-width:1000px;
+    margin:30px auto;
+    padding:25px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.card{
+    background:#eef4ff;
+    padding:15px;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin:10px 5px;
+    padding:12px 20px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#1e40af;
+}
+
+footer{
+    text-align:center;
+    background:#111827;
+    color:white;
+    padding:20px;
+    margin-top:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="foto.jpeg" alt="Mi Foto">
+    <h1>Joaquín Marcelo Juárez</h1>
+    <p>Estudiante de Desarrollo Full Stack</p>
+</header>
+
+<nav>
+    <a href="#presentacion">Presentación</a>
+    <a href="#formacion">Formación</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="presentacion">
+    <h2>👋 Presentación Personal</h2>
+    <p>
+        Hola, soy Joaquín Juárez. Actualmente estudio Desarrollo de Software con interés en programación, bases de datos y desarrollo web. Me encuentro adquiriendo experiencia en SQL, Git, GitHub y tecnologías web mediante proyectos académicos y personales. Busco continuar desarrollando mis habilidades técnicas y profesionales.
+
+    </p>
+</section>
+
+<section id="formacion">
+    <h2>🎓 Formación Académica</h2>
+    <div class="card">
+        <p>• Universidad Provincial de Córdoba</p>
+        <p>• Tecnicatura Universitaria en Programación Full Stack</p>
+        <p>• Certificaciones</p>
+    </div>
+</section>
+
+<section id="habilidades">
+    <h2>💻 Habilidades Técnicas</h2>
+    <div class="card">
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>SQL</p>
+        <p>MySQL</p>
+        <p>Git y GitHub</p>
+    </div>
+</section>
+
+<section id="proyectos">
+    <h2>🚀 Proyectos Realizados</h2>
+
+    <div class="card">
+        <h3>Base de Datos de Estudiantes</h3>
+        <p>Diseño y creación de una base de datos utilizando SQL para almacenar y gestionar información de estudiantes, incluyendo datos personales, calificaciones y consultas mediante sentencias SQL.</p>
+    </div>
+
+    <div class="card">
+        <h3>Ejercicios de PSeInt</h3>
+        <p>Resolución de problemas mediante algoritmos y diagramas de flujo utilizando PSeInt, aplicando estructuras secuenciales, condicionales y repetitivas para fortalecer la lógica de programación.</p>
+    </div>
+
+    <div class="card">
+        <h3>Página Personal</h3>
+        <p>Creación y publicación de un sitio web personal utilizando HTML, CSS y GitHub Pages. Incluye información personal, formación académica, habilidades técnicas, proyectos y datos de contacto.</p>
+    </div>
+
+    <div class="card">
+        <h3>Sistema de Gestión Comercial (Historia de Usuario)</h3>
+        <p>Análisis y documentación de historias de usuario para un sistema de gestión comercial. Se definieron requisitos funcionales, criterios de aceptación y casos de uso relacionados con el registro de ventas, control de productos, generación de facturas y administración de operaciones comerciales.</p>
+    </div>
+</section>
+
+<section id="contacto">
+    <h2>📞 Información de Contacto</h2>
+
+    <p><strong>Email:</strong> joaquinmjuarez26@gmail.com</p>
+    <p><strong>Teléfono:</strong> 3549-461304</p>
+
+    <a href="https://www.linkedin.com/in/joaquin-juarez-261922415/" class="btn" target="_blank">
+        LinkedIn
+    </a>
+
+    <a href="https://github.com/JoaquinMJuarez" class="btn" target="_blank">
+        GitHub
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 - Página Personal</p>
+</footer>
+
+</body>
+</html>
